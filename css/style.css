@@ -42,3 +42,24 @@ img {
 
 .arrow-nav button {
 }
+
+[data-control="slide"] {
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+[data-control="slide"] li {
+	width:1rem;
+	height:1rem;
+	background: #fb5;
+	border-radius:50%;
+	overflow: hidden;
+	text-indent: -9999px;
+	margin: .5rem;
+	cursor: pointer;
+}
+[data-control="slide"] li:hover,
+[data-control="slide"] li.active {
+	background: #e54;
+}
